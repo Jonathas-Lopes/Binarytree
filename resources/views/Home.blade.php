@@ -17,7 +17,7 @@
                     @if(count($guests)>0)
                         <h2 class="header">{{$guests[0]->nome}}</h2>
                             <div class="card horizontal yellow">
-                                <h1>100 pontos</h1>
+                                <h1>200 pontos</h1>
                             </div>
                     @endif
                 </div>

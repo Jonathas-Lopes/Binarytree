@@ -14,6 +14,7 @@
         <div class="conteiner">
             <div class="row">
                 <form class="center col s12 m4 l4 offset-l4 offset-m4" action="/cadastro" method="POST">
+                    @csrf
                     <div class="row">
                     <label class="col s12 m12 l12" for="nome">nome</label>
                     <input class="col s12 m12 l12" type="text" id="nome" name="nome">

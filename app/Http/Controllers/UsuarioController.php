@@ -50,7 +50,6 @@ class UsuarioController extends Controller
                 ->where('indicado_por', Auth::user()->id)->get()->toArray();
 
 
-            // dd($guests);
 
             return view('Home', compact('guests'));
         } else {
